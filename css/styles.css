@@ -261,3 +261,109 @@ main {
 .main__container--tables-date:nth-last-child(1) {
     background-color: var(--soft-blue);
 }
+
+
+.main__product {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    font-family: var(--tipografia-principal);
+    background-color: var(--warm-black);
+}
+
+.main__product--logo {
+    position: absolute;
+    width: 37.5px;
+    height: 25px;
+    top: -10px;
+    left: calc(50% - 18.75px);
+    background-image: url('../assets/icons/batata.svg');
+}
+
+.main__product--description {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.main__product--description h2 {
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+
+.main__product--description p {
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+
+.main__product--articles {
+    width: 100%;
+    min-width: 288px;
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.main__product--articles-card {
+    width: 90%;
+    min-height: 152px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #282623;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+}
+
+.card-title {
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--just-white);
+}
+
+.card-body {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+
+.main__product--articles-card span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card-clock {
+    background-image: url('../assets/icons/clock.svg');
+}
+
+.card-eye {
+    background-image: url('../assets/icons/eye.svg');
+}
+
+.card-money {
+    background-image: url('../assets/icons/dollar-sign.svg');
+}
+
+.card-check {
+    background-image: url('../assets/icons/check-circle.svg');
+}
