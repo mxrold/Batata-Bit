@@ -367,3 +367,23 @@ main {
 .card-check {
     background-image: url('../assets/icons/check-circle.svg');
 }
+
+.main__bitcoin {
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url('../assets/img/bitcoinbaby.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main__bitcoin h2 {
+    padding-top: 20px;
+    font-size: 2.4rem;
+    font-weight: 700;
+    font-family: var(--tipografia-principal);
+    line-height: 2.6rem;
+    color: var(--just-white);
+    text-align: center;
+}
