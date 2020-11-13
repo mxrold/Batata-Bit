@@ -16,6 +16,7 @@
     --grey: #bababa;
     --off-white: #faf8f7;
     --just-white: #fff;
+    --grey-text: #757575;
     --tipografia-principal: 'DM Sans', sans-serif;
     --tipografia-secundaria: 'Inter', sans-serif;
 }
@@ -154,7 +155,7 @@ main {
     font-weight: 500;
     font-family: var(--tipografia-principal);
     line-height: 1.8rem;
-    color: #757575;
+    color: var(--grey-text)
 }
 
 .main__container--tables-title {
@@ -168,8 +169,9 @@ main {
 }
 
 .main__container--tables {
-    width: 100%;
+    width: 90%;
     height: auto;
+    margin: 0 auto;
 }
 
 .main__container--tables-items-text:nth-child(1) {
@@ -193,7 +195,6 @@ main {
     grid-template: repeat(4, 40px) / repeat(2, minmax(100px, 300px));
     grid-gap: 1px;
     justify-content: center;
-    margin: 0 15%;
 }
 
 .main__container--tables-items-text,
@@ -209,7 +210,7 @@ main {
     font-size: 1.6rem;
     font-weight: 500;
     line-height: 2rem;
-    color: #B5B0AC;
+    color: var(--grey-text)
 }
 
 .main__container--tables-items-number {
@@ -217,7 +218,7 @@ main {
     font-size: 1.4rem;
     font-family: var(--tipografia-secundaria);
     line-height: 1.6rem;
-    color: #757575;
+    color: var(--grey-text)
 }
 
 .up, .down {
@@ -308,21 +309,13 @@ main {
     color: #808080;
 }
 
-.main__product--articles {
-    width: 100%;
-    min-width: 288px;
-    max-width: 400px;
-    height: auto;
-    margin: 0 auto;
-    margin-bottom: 30px;
-}
-
 .main__product--articles-card {
     width: 90%;
-    min-height: 152px;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    padding: 20px;
+    min-width: 288px;
+    max-width: 400px;
+    height: 152px;
+    margin: 15px auto;
+    padding: 15px;
     background: #282623;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
     border-radius: 4px;
@@ -418,7 +411,7 @@ main {
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
-    color: #757575;
+    color: var(--grey-text)
 }
 
 .main__plans--slider {
@@ -434,7 +427,7 @@ main {
     scroll-snap-align: center;
     width: 65%;
     min-height: 190px;
-    max-width: 3000px;
+    max-width: 300px;
     height: 250px;
     margin: 50px 10px 20px;
     padding: 0 15px;
@@ -489,7 +482,7 @@ main {
     font-weight: 500;
     font-family: var(--tipografia-secundaria);
     line-height: 1.5rem;
-    color: #757575;
+    color: var(--grey-text)
 }
 
 .card--info-btn {

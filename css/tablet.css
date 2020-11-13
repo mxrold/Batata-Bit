@@ -1,0 +1,77 @@
+.header__container h1 {
+    font-size: 3rem;
+}
+ 
+.header__container--button {
+    width: 280px;
+    left: calc(50% - 140px);
+    font-size: 1.8rem;
+}
+
+.main__container--title h2,
+.main__product--description h2,
+.main__bitcoin h2,
+.main__plans--description h2,
+.main__plans--description {
+    font-size: 2.8rem;
+}
+
+.main__container--title p,
+.main__container--tables-items-text,
+.main__product--description p,
+.header__container p,
+.main__plans--description p {
+    font-size: 1.8rem;
+}
+
+.main__container--tables-title  {
+    font-size: 2.2rem;
+}
+
+.main__container--tables-items-number,
+.main__container--tables-date span,
+.card-body,
+.section__left  ul {
+    font-size: 1.6rem;
+}
+
+.main__container--tables-date,
+.card-recomended,
+.section__right figcaption {
+    font-size: 1.4rem;
+}
+
+.card-title {
+    font-size: 2rem;
+}
+
+.main__container--tables {
+    display: grid;
+    grid-template: repeat(3, auto) / 1fr 1fr;
+    justify-items: center;
+}
+
+.main__container--tables-title {
+    order: 1;
+}
+
+.main__container--tables-items {
+    width: 70%;
+    order: 2;
+}
+
+.main__container--tables-date {
+    order: 3;
+}
+
+.main__product--articles {
+    display: flex;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: 0 auto;
+}
+
+.main__plans--slider {
+    justify-content: center;
+    overflow-x: unset;
+}
