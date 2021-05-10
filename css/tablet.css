@@ -3,8 +3,6 @@
 }
  
 .header__container--button {
-    width: 280px;
-    left: calc(50% - 140px);
     font-size: 1.8rem;
 }
 
