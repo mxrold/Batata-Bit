@@ -3,7 +3,7 @@
 It is a landing page about cryptocurrencies, built in CSS and HTML.
 ## Preview 🖼
 
-![Design preview](./assets/img/batata-bit-desktop.png)
+![Design preview](./assets/img/batatabit-preview.png)
 
 ## Demo 💻
 
@@ -17,11 +17,7 @@ To run this project or you want to modify something, you needed the next points
 
 ## Installation - How to clone 🚀
 
-To install and run this project you can to do with __npm__ or __git clone__
-- With npm
-~~~
-npm i mxrold-weather-app
-~~~
+To install and run this project you can to do with __git clone__
 
 - With HTTPS
 ~~~
